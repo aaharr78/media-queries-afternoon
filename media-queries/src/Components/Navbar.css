@@ -1,0 +1,52 @@
+.Header{
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+    background-size: contain;
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .navbar{
+   background-color: #212529;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+ .nav-title {
+    color: #fed136;
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+      font-size: 1.75em;
+      display: inline-block;
+      /* float: left; */
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      line-height: inherit;
+      padding-left: 20px;
+      
+    
+  }
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    width: 60%;
+    color: #fff;
+  } 
+  .nav-links{
+      display: none;
+  }
+  .fa-bars{
+      display: none
+  }
+@media(max-width: 1000px){
+    .fa-bars {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+
+}
